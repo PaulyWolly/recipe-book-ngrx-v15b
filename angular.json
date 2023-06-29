@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ngrx-08-finished": {
+    "recipe-book-ngrx-v15b": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ngrx-08-finished",
+            "outputPath": "dist/recipe-book-ngrx-v15b",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -41,13 +41,13 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "5mb",
+                  "maximumError": "5mb"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "5mb",
+                  "maximumError": "5mb"
                 }
               ],
               "outputHashing": "all"
@@ -67,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ngrx-08-finished:build:production"
+              "browserTarget": "recipe-book-ngrx-v15b:build:production"
             },
             "development": {
-              "browserTarget": "ngrx-08-finished:build:development"
+              "browserTarget": "recipe-book-ngrx-v15b:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -78,7 +78,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ngrx-08-finished:build"
+            "browserTarget": "recipe-book-ngrx-v15b:build"
           }
         },
         "test": {
