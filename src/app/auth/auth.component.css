@@ -1,0 +1,16 @@
+.form-container {
+  margin-top: 150px;
+}
+
+.form-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  text-shadow: #FC0 1px 0 10px;
+}
+
+.forgot-pwd-link {
+  float: right;
+  position: relative;
+  top: -24px;
+}
